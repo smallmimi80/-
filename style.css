@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'PingFang TC', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{
+    max-width: 940px;
+    max-height: 40px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+h1{
+    width: 171px;
+    height: 27px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    color:#3F5D45;  
+    padding-left: 360px;
+    width: 215px;
+    font-weight: bold;
+}
+.menu li:hover{
+    color:#3F5D45;
+    background: #c6ffe2;
+}
+.btn-cart{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.btn-cart img:hover{
+    background-color: #EAF0ED;
+}
+.banner{
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+
+.main{
+    max-width: 940px;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+h2{
+    width: 300px;
+    color: #EAF0ED;
+    background-color: #3F5D45;
+    padding: 16px 0px;
+    font-weight: bold;
+}
+.nav li{
+    border: 1px solid #EAF0ED;
+    padding:16px;
+    font-weight: bold;
+}
+.nav a{
+    color: #3F5D45;
+}
+.nav li:hover{
+    background-color: #EAF0ED;
+    color: #3F5D45;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+}
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px px;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.daynice{
+    position: absolute;
+    color: white;
+    background-color:#3F5D45;
+    display: flex;
+    max-width: 16px;
+    max-height: 106.73px;
+    margin-left: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10.08px 10px 9.24px 10px;
+}
+.productlike{
+    position: absolute;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-left: 258px;
+}
+.productlike img:hover{
+    background-color: #EAF0ED;
+}
+
+.productname{
+    display: flex;
+    justify-content: space-around;
+    color: #3F5D45;
+    padding: 10px;
+    border: 1px solid #EAF0ED;
+}
+.productprice{
+    font-weight: bold;
+}
+
+.productname a:hover{
+    background-color: #EAF0ED;
+}
+.productadd-cart{
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+    background-color: #EAF0ED;
+    padding:16px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.productadd-cart:hover{
+    background-color: #3F5D45;
+    color: white;
+}
+
+/*page*/
+.page-list{
+    display: flex;
+    color:#3F5D45;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.page-list li a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid #EAF0ED;
+    color: #3F5D45;
+}
+
+.page-list li a:hover{
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
